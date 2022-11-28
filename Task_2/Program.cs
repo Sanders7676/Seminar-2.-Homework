@@ -43,5 +43,4 @@ if (number >= 0)
 else
 {
     Console.WriteLine("Это число меньше нуля.");
-
 }
