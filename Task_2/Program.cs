@@ -7,8 +7,8 @@ bool isParsed = int.TryParse(Console.ReadLine(), out int number);
 
 if (!isParsed)
 {
-Console.WriteLine("Число введено неверно");
-return;
+    Console.WriteLine("Число введено неверно");
+    return;
 }
 
 if (number >= 0)
@@ -27,7 +27,7 @@ if (number >= 0)
             {
                 discharge = discharge * 10;
             }
-            
+
             int result = (number / discharge) % 10;
 
             Console.WriteLine($"Третья цифра в данном числе это {result}");
@@ -43,5 +43,5 @@ if (number >= 0)
 else
 {
     Console.WriteLine("Это число меньше нуля.");
-   
+
 }
